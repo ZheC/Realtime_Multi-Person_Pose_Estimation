@@ -18,7 +18,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 - change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
 ## Citation
-Please cite CPM in your publications if it helps your research:
+Please cite the paper in your publications if it helps your research:
 
     @article{cao2016realtime,
 	  title={Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},

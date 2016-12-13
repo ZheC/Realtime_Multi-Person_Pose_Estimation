@@ -15,7 +15,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 
 ### Matlab
 - Run `testing/get_model.sh` to retreive our latest MSCOCO model from our web server.
-- change the caffepath in the `config.m` and `run demo.m` for an example usage.
+- change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
 ## Citation
 Please cite CPM in your publications if it helps your research:

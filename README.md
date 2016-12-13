@@ -7,7 +7,7 @@ This project is licensed under the terms of the GPL v3 license. By using the sof
 Contact: Zhe Cao (zhecao@cmu.edu)
 
 ## Before Everything
-- Watch some [videos](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s).
+- Watch our [video result](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) obtained from YouTube videos.
 - Install [Caffe](http://caffe.berkeleyvision.org/). 
 - For single person pose estimation: please refer to [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)
 

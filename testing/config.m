@@ -2,7 +2,7 @@ function param = config(id)
 %% set this part
 
 % GPU device number (doesn't matter for CPU mode)
-GPUdeviceNumber = 1;
+GPUdeviceNumber = 0;
 
 % Select model (default: 5)
 param.modelID = id;
@@ -46,8 +46,6 @@ param.max = 0;
 % use average heatmap
 param.merge = 'avg';
 
-
-%% don't edit this part
 
 % path of your caffe
 caffepath = '/home/zhecao/caffe/matlab';

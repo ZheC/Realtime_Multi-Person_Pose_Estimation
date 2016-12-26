@@ -1,5 +1,7 @@
 # Multi-Person-Pose-Estimation
 
+Code for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award.
+
 Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh, "[Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050)".
 
 This project is licensed under the terms of the GPL v3 license. By using the software, you are agreeing to the terms of the [license agreement](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/LICENSE).
@@ -28,7 +30,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 ## Training
 
 - Network Architecture
-![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.pdf)
+![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.png)
 
 - Code will be released soon!
 

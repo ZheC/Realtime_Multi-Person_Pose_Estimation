@@ -21,7 +21,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
 ### C++ (real-time version)
-- Refer caffe_demo submodule.
+- Refer to our [caffe_demo submodule](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/).
 
 ### Python
 - iPython Notebook documentation will be released soon!

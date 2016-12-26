@@ -6,6 +6,8 @@ This project is licensed under the terms of the GPL v3 license. By using the sof
 
 Contact: Zhe Cao (zhecao@cmu.edu)
 
+![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif)
+
 ## Before Everything
 - Watch our [video result](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) obtained from YouTube videos.
 - Install [Caffe](http://caffe.berkeleyvision.org/). 

@@ -1,6 +1,6 @@
 # Multi-Person-Pose-Estimation
 
-Code for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award.
+Code for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award. Watch our [video result](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s). 
 
 Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh, "[Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050)".
 
@@ -10,9 +10,8 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 
 ![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif)
 
-## Before Everything
-- Watch our [video result](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) obtained from YouTube videos.
-- Install [Caffe](http://caffe.berkeleyvision.org/). 
+## Set Up
+- Install [Caffe](http://caffe.berkeleyvision.org/). Compile matcaffe, pycaffe.
 - For single person pose estimation: please refer to [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)
 
 ## Testing

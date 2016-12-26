@@ -20,11 +20,11 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 - Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
-### Python
-- Code will be released soon!
-
 ### C++ (real-time version)
-- Code will be released soon!
+- Refer caffe_demo submodule.
+
+### Python
+- iPython Notebook documentation will be released soon!
 
 ## Training
 

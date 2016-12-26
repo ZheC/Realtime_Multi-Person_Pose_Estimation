@@ -16,12 +16,12 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 
 ## Testing
 
-### Matlab
-- Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
-- Change the caffepath in the `config.m` and run `demo.m` for an example usage.
-
 ### C++ (real-time version)
 - Refer to our [caffe_demo submodule](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/).
+
+### Matlab (slower)
+- Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
+- Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
 ### Python
 - iPython Notebook documentation will be released soon!

@@ -19,6 +19,19 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 - Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
+### Python
+- Code will be released soon!
+
+### C++ (real-time version)
+- Code will be released soon!
+
+## Training
+
+- Network Architecture
+![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.pdf)
+
+- Code will be released soon!
+
 ## Citation
 Please cite the paper in your publications if it helps your research:
 

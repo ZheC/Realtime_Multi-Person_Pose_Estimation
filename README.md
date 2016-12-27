@@ -37,9 +37,16 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 ## Citation
 Please cite the paper in your publications if it helps your research:
 
+    @inproceedings{wei2016cpm,
+          author = {Shih-En Wei and Varun Ramakrishna and Takeo Kanade and Yaser Sheikh},
+          booktitle = {CVPR},
+          title = {Convolutional pose machines},
+          year = {2016}
+          }
+    
     @article{cao2016realtime,
 	  title={Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
 	  author={Cao, Zhe and Simon, Tomas and Wei, Shih-En and Sheikh, Yaser},
 	  journal={arXiv preprint arXiv:1611.08050},
 	  year={2016}
-	}
+	  }

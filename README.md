@@ -35,7 +35,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 - Code will be released soon!
 
 ## Related repository
-Single person pose estimation: [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)
+CVPR'16, [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)
 
 ## Citation
 Please cite the paper in your publications if it helps your research:

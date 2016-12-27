@@ -16,7 +16,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 
 ## Testing
 
-### C++ (real-time version)
+### C++ (realtime version)
 - Refer to our modified caffe: [caffe_demo](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/).
 - Three input options: images, video, webcam
 
@@ -41,7 +41,7 @@ Please cite the paper in your publications if it helps your research:
     
     @article{cao2016realtime,
 	  title={Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
-	  author={Cao, Zhe and Simon, Tomas and Wei, Shih-En and Sheikh, Yaser},
+	  author={Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
 	  journal={arXiv preprint arXiv:1611.08050},
 	  year={2016}
 	  }

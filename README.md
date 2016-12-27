@@ -45,9 +45,10 @@ Please cite the paper in your publications if it helps your research:
 	  journal={arXiv preprint arXiv:1611.08050},
 	  year={2016}
 	  }
+	  
     @inproceedings{wei2016cpm,
-       author = {Shih-En Wei and Varun Ramakrishna and Takeo Kanade and Yaser Sheikh},
-       booktitle = {CVPR},
-       title = {Convolutional pose machines},
-       year = {2016}
-       }
+     author = {Shih-En Wei and Varun Ramakrishna and Takeo Kanade and Yaser Sheikh},
+     booktitle = {CVPR},
+     title = {Convolutional pose machines},
+     year = {2016}
+     }

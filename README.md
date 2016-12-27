@@ -11,8 +11,8 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 ![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif)
 
 ## Set Up
-- Install [Caffe](http://caffe.berkeleyvision.org/). Compile matcaffe, pycaffe.
-- For single person pose estimation: please refer to [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)
+- Install [Caffe](http://caffe.berkeleyvision.org/). 
+- Compile matcaffe, pycaffe.
 
 ## Testing
 
@@ -33,6 +33,9 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 ![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.png)
 
 - Code will be released soon!
+
+## Related repository
+Single person pose estimation: [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)
 
 ## Citation
 Please cite the paper in your publications if it helps your research:

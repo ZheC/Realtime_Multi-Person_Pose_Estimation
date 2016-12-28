@@ -25,6 +25,7 @@ Contact: Zhe Cao (http://www.andrew.cmu.edu/user/zhecao) Email: zhecao@cmu.edu
 - Three input options: images, video, webcam
 
 ### Matlab (slower)
+- Compatible with general caffe. 
 - Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 

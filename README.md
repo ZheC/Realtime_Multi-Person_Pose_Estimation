@@ -2,9 +2,11 @@
 By [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao), [Tomas Simon](http://www.cs.cmu.edu/~tsimon/), [Shih-En Wei](https://scholar.google.com/citations?user=sFQD3k4AAAAJ&hl=en), [Yaser Sheikh](http://www.cs.cmu.edu/~yaser/).
 
 ## Introduction
-Code repo for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award. Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on funny Youtube videos. 
+Code repo for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award. 
 
-We present a bottom-up approach for multi-person pose estimation. For more details, refer to our [Arxiv paper](https://arxiv.org/abs/1611.08050) and [Presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
+Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on funny Youtube videos. 
+
+We present a bottom-up approach for multi-person pose estimation. For more details, refer to our [Arxiv paper](https://arxiv.org/abs/1611.08050) and [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
 
 <p align="left">
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif">

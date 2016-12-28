@@ -1,6 +1,7 @@
-# Multi-Person-Pose-Estimation
+# Realtime Multi-Person Pose Estimation
 
 Code repo for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award. 
+
 By Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh.
 
 Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on funny Youtube videos. 
@@ -9,13 +10,13 @@ Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on 
 
 Arxiv: [Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050).
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif">
 </p>
 
 This project is licensed under the terms of the GPL v3 [![License](https://img.shields.io/aur/license/yaourt.svg)](LICENSE).
 
-Contact: Zhe Cao (http://www.andrew.cmu.edu/user/zhecao) Email: zhecao@cmu.edu
+Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 
 ## Set Up
 - Install [Caffe](http://caffe.berkeleyvision.org/). 

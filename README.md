@@ -12,7 +12,7 @@ Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh, "[Realtime Multi-Person 2D Pose
 
 This project is licensed under the terms of the GPL v3 license. By using the software, you are agreeing to the terms of the [license agreement](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/LICENSE).
 
-Contact: Zhe Cao (http://www.andrew.cmu.edu/user/zhecao Email: zhecao@cmu.edu)
+Contact: Zhe Cao (http://www.andrew.cmu.edu/user/zhecao) Email: zhecao@cmu.edu
 
 ## Set Up
 - Install [Caffe](http://caffe.berkeleyvision.org/). 

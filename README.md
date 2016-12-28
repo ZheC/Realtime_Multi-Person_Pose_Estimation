@@ -1,6 +1,10 @@
 # Multi-Person-Pose-Estimation
 
-Code for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award. Watch our [video result](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s). 
+Code for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award. 
+
+Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on funny Youtube videos. 
+
+[Presentation slides at ILSVRC and COCO workshop 2016] (http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf)
 
 Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh, "[Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050)".
 

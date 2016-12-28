@@ -17,7 +17,7 @@ Contact: Zhe Cao (zhecao@cmu.edu)
 ## Testing
 
 ### C++ (realtime version)
-- Refer to our modified caffe: [caffe_demo](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/tree/1dd75a9b2ae9e5ee70edaf78c7d27b7490be0384).
+- Use our modified caffe: [caffe_demo](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/tree/1dd75a9b2ae9e5ee70edaf78c7d27b7490be0384). Follow the instruction on that repo.
 - Three input options: images, video, webcam
 
 ### Matlab (slower)

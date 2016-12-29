@@ -6,7 +6,7 @@ Code repo for winning 2016 MSCOCO Keypoints Challenge, ECCV Best Demo Award.
 
 Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on funny Youtube videos. 
 
-We present a bottom-up approach for multi-person pose estimation. For more details, refer to our [Arxiv paper](https://arxiv.org/abs/1611.08050) and [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
+We present a bottom-up approach for multi-person pose estimation, without using any person detector. For more details, refer to our [Arxiv paper](https://arxiv.org/abs/1611.08050) and [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
 
 <p align="left">
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif">

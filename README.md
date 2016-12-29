@@ -16,7 +16,13 @@ This project is licensed under the terms of the GPL v3 license [![License](https
 
 Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 
-## Set Up
+## Results
+
+<p align="left">
+<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif">
+</p>
+
+## Quick Start
 - Install [Caffe](http://caffe.berkeleyvision.org/). 
 - Compile matcaffe, pycaffe.
 

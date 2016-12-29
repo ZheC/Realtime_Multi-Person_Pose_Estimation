@@ -9,7 +9,7 @@ Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) on 
 We present a bottom-up approach for multi-person pose estimation, without using any person detector. For more details, refer to our [Arxiv paper](https://arxiv.org/abs/1611.08050) and [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
 
 <p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif">
+<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif", width="720">
 </p>
 
 This project is licensed under the terms of the GPL v3 license [![License](https://img.shields.io/aur/license/yaourt.svg)](LICENSE).

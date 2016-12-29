@@ -12,7 +12,7 @@ We present a bottom-up approach for multi-person pose estimation. For more detai
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif">
 </p>
 
-This project is licensed under the terms of the GPL v3 [![License](https://img.shields.io/aur/license/yaourt.svg)](LICENSE).
+This project is licensed under the terms of the GPL v3 license [![License](https://img.shields.io/aur/license/yaourt.svg)](LICENSE).
 
 Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 

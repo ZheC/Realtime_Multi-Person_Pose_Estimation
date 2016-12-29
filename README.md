@@ -19,7 +19,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ## Results
 
 <p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif">
+<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif", width="960">
 </p>
 
 ## Quick Start

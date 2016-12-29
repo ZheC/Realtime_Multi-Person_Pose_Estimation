@@ -22,6 +22,10 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif", width="720">
 </p>
 
+<p align="left">
+<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/shake.gif", width="720">
+</p>
+
 ## Quick Start
 - Install [Caffe](http://caffe.berkeleyvision.org/). 
 - Compile matcaffe, pycaffe.

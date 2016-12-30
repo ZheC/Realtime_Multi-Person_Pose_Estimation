@@ -26,9 +26,10 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/shake.gif", width="720">
 </p>
 
-## Quick Start
-- Install [Caffe](http://caffe.berkeleyvision.org/). 
-- Compile matcaffe, pycaffe.
+## Contents
+1. [Testing](#testing)
+2. [Training](#training)
+3. [Citation](#citation)
 
 ## Testing
 
@@ -37,7 +38,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 - Three input options: images, video, webcam
 
 ### Matlab (slower)
-- Compatible with general caffe. 
+- Compatible with general [Caffe](http://caffe.berkeleyvision.org/). Compile matcaffe. 
 - Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 

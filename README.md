@@ -51,7 +51,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.png)
 
 ### Usage
-- Use our modified caffe: [caffe_train](https://github.com/CMU-Perceptual-Computing-Lab/caffe_train). It will be merged with caffe_rtpose (for testing) soon. 
+- Use our modified caffe: [caffe_train](https://github.com/CMU-Perceptual-Computing-Lab/caffe_train). Compile pycaffe. It will be merged with caffe_rtpose (for testing) soon. 
 - Run `cd training; python setLayers.py --exp 1` to generate the prototxt and shell file for training.
 - Download [VGG-19 model](https://gist.github.com/ksimonyan/3785162f95cd2d5fee77), we use it to initialize the first 10 layers for training.
 - Download our generated LMDB for the COCO dataset (189GB file): `get_lmdb.sh`

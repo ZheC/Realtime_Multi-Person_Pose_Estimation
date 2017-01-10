@@ -34,7 +34,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ## Testing
 
 ### C++ (realtime version)
-- Use our modified caffe: [caffe_demo](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo.
+- Use our modified caffe: [caffe_rtpose](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo.
 - Three input options: images, video, webcam
 
 ### Matlab (slower)
@@ -49,8 +49,12 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 
 - Network Architecture
 ![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.png)
+- Use our modified caffe: [caffe_train](https://github.com/CMU-Perceptual-Computing-Lab/caffe_train). It will be merged with caffe_rtpose (for testing) soon. 
 
-- Code will be released soon!
+### Usage
+- Run `cd training; python setLayers.py --exp 1` to generate the prototxt and shell file for training.
+- Download our generated LMDB for the COCO dataset (189GB file): `get_lmdb.sh`
+- Code for generating the LMDB file will be released soon!
 
 ## Related repository
 CVPR'16, [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)

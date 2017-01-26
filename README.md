@@ -43,7 +43,9 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
 ### Python
-- iPython Notebook documentation will be released soon!
+- `cd testing/python`
+- `ipython notebook`
+- Open `demo.ipynb` to execute the code
 
 ## Training
 

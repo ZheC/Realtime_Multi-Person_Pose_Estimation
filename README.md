@@ -45,7 +45,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ### Python
 - `cd testing/python`
 - `ipython notebook`
-- Open `demo.ipynb` to execute the code
+- Open `demo.ipynb` and execute the code
 
 ## Training
 

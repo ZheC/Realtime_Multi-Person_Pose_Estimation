@@ -1,0 +1,41 @@
+The author of "jsonlab" toolbox is Qianqian Fang. Qianqian
+is currently an Assistant Professor at Massachusetts General Hospital, 
+Harvard Medical School.
+
+Address: Martinos Center for Biomedical Imaging, 
+         Massachusetts General Hospital, 
+         Harvard Medical School
+         Bldg 149, 13th St, Charlestown, MA 02129, USA
+URL: http://nmr.mgh.harvard.edu/~fangq/
+Email: <fangq at nmr.mgh.harvard.edu> or <fangqq at gmail.com>
+
+
+The script loadjson.m was built upon previous works by
+
+- Nedialko Krouchev: http://www.mathworks.com/matlabcentral/fileexchange/25713
+       date: 2009/11/02
+- François Glineur: http://www.mathworks.com/matlabcentral/fileexchange/23393
+       date: 2009/03/22
+- Joel Feenstra: http://www.mathworks.com/matlabcentral/fileexchange/20565
+       date: 2008/07/03
+
+
+This toolbox contains patches submitted by the following contributors:
+
+- Blake Johnson <bjohnso at bbn.com>
+  part of revision 341
+
+- Niclas Borlin <Niclas.Borlin at cs.umu.se>
+  various fixes in revision 394, including
+  - loadjson crashes for all-zero sparse matrix.
+  - loadjson crashes for empty sparse matrix.
+  - Non-zero size of 0-by-N and N-by-0 empty matrices is lost after savejson/loadjson.
+  - loadjson crashes for sparse real column vector.
+  - loadjson crashes for sparse complex column vector.
+  - Data is corrupted by savejson for sparse real row vector.
+  - savejson crashes for sparse complex row vector. 
+
+- Yul Kang <yul.kang.on at gmail.com>
+  patches for svn revision 415.
+  - savejson saves an empty cell array as [] instead of null
+  - loadjson differentiates an empty struct from an empty array

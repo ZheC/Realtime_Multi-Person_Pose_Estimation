@@ -52,12 +52,15 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ### Network Architecture
 ![Teaser?](https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/arch.png)
 
-### Usage
-- Use our modified caffe: [caffe_train](https://github.com/CMU-Perceptual-Computing-Lab/caffe_train). Compile pycaffe. It will be merged with caffe_rtpose (for testing) soon. 
+### Steps
+- Download our modified caffe: [caffe_train](https://github.com/CMU-Perceptual-Computing-Lab/caffe_train). Compile pycaffe. It will be merged with caffe_rtpose (for testing) soon. 
 - Run `cd training; python setLayers.py --exp 1` to generate the prototxt and shell file for training.
 - Download [VGG-19 model](https://gist.github.com/ksimonyan/3785162f95cd2d5fee77), we use it to initialize the first 10 layers for training.
-- Download our generated LMDB for the COCO dataset (189GB file): `get_lmdb.sh`
-- Code for generating the LMDB file will be released soon!
+- Run `bash getData.sh` to get the COCO images in `dataset/COCO/images/`, keypoints annotations in `dataset/COCO/annotations/`, [COCO official toolbox](https://github.com/pdollar/coco) in `dataset/COCO/coco/`. 
+- Run `getANNO.m` in matlab to convert the annotation format from json to mat in `dataset/COCO/mat/`.
+- Run `genCOCOMask.m` in matlab to obatin the mask images for unlabled person. You can use 'parfor' in matlab to speed up the code.
+- Run `genJSON('COCO')` to generate a json file in `dataset/COCO/json/` folder. The json files contain raw informations needed for training from each individual dataset.
+- Run `python genLMDB.py` to generate LMDBs.
 
 ## Related repository
 CVPR'16, [Convolutional Pose Machines](https://github.com/shihenw/convolutional-pose-machines-release)

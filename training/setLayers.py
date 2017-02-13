@@ -9,8 +9,7 @@ from ConfigParser import SafeConfigParser
 # caffe_path = parser.get('caffe', 'path')
 # sys.path.append('%s/python' % caffe_path)
 
-caffe_path = '/home/zhecao/caffe/'
-#caffe_path = '/media/ssd/humanPose/caffe/'
+caffe_path = '/home/zhecao/caffe_train/'
 import sys, os
 sys.path.insert(0, os.path.join(caffe_path, 'python'))
 import caffe

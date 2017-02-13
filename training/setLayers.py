@@ -33,7 +33,7 @@ def setLayers_twoBranches(data_source, batch_size, layername, kernel, stride, ou
     # produce data definition for deploy net
     elif deploy == False:
         n.data, n.tops['label'] = L.CPMData(data_param=dict(backend=1, source=data_source, batch_size=batch_size), 
-                                                    transform_param=transform_param_in, ntop=2)
+                                                    cpm_transform_param=transform_param_in, ntop=2)
         n.tops[label_name[2]], n.tops[label_name[3]], n.tops[label_name[4]], n.tops[label_name[5]] = L.Slice(n.label, slice_param=dict(axis=1, slice_point=[38, num_parts+1, num_parts+39]), ntop=4)
         n.tops[label_name[0]] = L.Eltwise(n.tops[label_name[2]], n.tops[label_name[4]], operation=P.Eltwise.PROD)
         n.tops[label_name[1]] = L.Eltwise(n.tops[label_name[3]], n.tops[label_name[5]], operation=P.Eltwise.PROD)

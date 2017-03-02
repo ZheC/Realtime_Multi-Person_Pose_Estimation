@@ -1,3 +1,0 @@
-[submodule "caffe_demo"]
-	path = caffe_demo
-	url = https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo.git

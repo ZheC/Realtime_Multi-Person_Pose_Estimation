@@ -246,7 +246,7 @@ for k = 1:size(mapIdx,1)
 end
 
 %% delete some rows of subset which has few parts occur
-%%{
+%{
 deleIdx = [];
 for i=1:size(subset,1)
     %if(subset(i,end)<5)

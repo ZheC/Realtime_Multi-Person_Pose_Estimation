@@ -2,7 +2,7 @@
 By [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao), [Tomas Simon](http://www.cs.cmu.edu/~tsimon/), [Shih-En Wei](https://scholar.google.com/citations?user=sFQD3k4AAAAJ&hl=en), [Yaser Sheikh](http://www.cs.cmu.edu/~yaser/).
 
 ## Introduction
-Code repo for winning 2016 MSCOCO Keypoints Challenge, 2016 ECCV Best Demo Award, and 2017 CVPR paper.  
+Code repo for winning 2016 MSCOCO Keypoints Challenge, 2016 ECCV Best Demo Award, and 2017 CVPR Oral paper.  
 
 Watch our [video result] (https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) in YouTube or [here](http://posefs1.perception.cs.cmu.edu/Users/ZheCao/humanpose.mp4). 
 

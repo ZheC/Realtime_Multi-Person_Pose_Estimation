@@ -33,11 +33,11 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 
 ## Testing
 
-### C++ (realtime version, but parameters are not optimal for COCO evaluation)
+### C++ (realtime version, for demo purpose)
 - Use our modified caffe: [caffe_rtpose](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo.
 - Three input options: images, video, webcam
 
-### Matlab (slower, but we use this code for COCO evaluation)
+### Matlab (slower, for COCO evaluation)
 - Compatible with general [Caffe](http://caffe.berkeleyvision.org/). Compile matcaffe. 
 - Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.

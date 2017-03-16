@@ -4,6 +4,7 @@ addpath('util');
 addpath('util/ojwoodford-export_fig-5735e6d/');
 
 % For MPI, mode = 2. For COCO, mode = 1.
+orderCOCO = [1,0 7,9,11, 6,8,10, 13,15,17, 12,14,16, 3,2,5,4];
 mode = 1;
 param = config(mode);
 model = param.model(param.modelID);
@@ -24,25 +25,24 @@ for i = 1:length(coco_val)
     for ridxPred = 1:size(subset,1)
         point = struct([]);
         part_cnt = 0;
-        score_sum = 0;
-        
-        for part = 1:12
+        for part = 1:18
+            if part == 2
+               continue;
+            end
             index = subset(ridxPred,part);
             if(index >0)
                 part_cnt = part_cnt +1;
                 point(part_cnt).x = candidates(index,1);
                 point(part_cnt).y = candidates(index,2);
                 point(part_cnt).score = candidates(index,3);
-                point(part_cnt).id = orderMPI(part);
-                score_sum = score_sum + candidates(index,3);
+                point(part_cnt).id = orderCOCO(part);
             end
         end
         
         point_cnt = point_cnt +1;
         pred(i).annorect(point_cnt).annopoints.point = point;
         %pred(i).annorect(point_cnt).annopoints.score = subset(ridxPred,end-1)/subset(ridxPred,end);
-        %pred(i).annorect(point_cnt).annopoints.score = subset(ridxPred,end-1);
-        pred(i).annorect(point_cnt).annopoints.score = score_sum;
+        pred(i).annorect(point_cnt).annopoints.score = subset(ridxPred,end-1);
     end
     pred(i).candidates = candidates;
 end

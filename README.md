@@ -35,7 +35,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 
 ### C++ (realtime version, for demo purpose)
 - Use our modified caffe: [caffe_rtpose](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo. 
-- In May 2017, we released a updated library [openPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- In May 2017, we released an updated library [openPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 - Three input options: images, video, webcam
 
 ### Matlab (slower, for COCO evaluation)
@@ -56,7 +56,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 ### Training Steps 
 - Run `cd training; bash getData.sh` to obtain the COCO images in `dataset/COCO/images/`, keypoints annotations in `dataset/COCO/annotations/` and [COCO official toolbox](https://github.com/pdollar/coco) in `dataset/COCO/coco/`. 
 - Run `getANNO.m` in matlab to convert the annotation format from json to mat in `dataset/COCO/mat/`.
-- Run `genCOCOMask.m` in matlab to obatin the mask images for unlabled person. You can use 'parfor' in matlab to speed up the code.
+- Run `genCOCOMask.m` in matlab to obatin the mask images for unlabeled person. You can use 'parfor' in matlab to speed up the code.
 - Run `genJSON('COCO')` to generate a json file in `dataset/COCO/json/` folder. The json files contain raw informations needed for training.
 - Run `python genLMDB.py` to generate your LMDB. (You can also download our LMDB for the COCO dataset (189GB file) by: `bash get_lmdb.sh`)
 - Download our modified caffe: [caffe_train](https://github.com/CMU-Perceptual-Computing-Lab/caffe_train). Compile pycaffe. It will be merged with caffe_rtpose (for testing) soon.

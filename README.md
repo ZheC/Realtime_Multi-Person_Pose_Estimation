@@ -40,7 +40,7 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 
 ### Matlab (slower, for COCO evaluation)
 - Compatible with general [Caffe](http://caffe.berkeleyvision.org/). Compile matcaffe. 
-- Run `cd testing; get_model.sh` to retreive our latest MSCOCO model from our web server.
+- Run `cd testing; get_model.sh` to retrieve our latest MSCOCO model from our web server.
 - Change the caffepath in the `config.m` and run `demo.m` for an example usage.
 
 ### Python

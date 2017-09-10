@@ -8,17 +8,7 @@ Watch our video result in [YouTube](https://www.youtube.com/watch?v=pW6nZXeWlGM&
 
 We present a bottom-up approach for multi-person pose estimation, without using any person detector. For more details, refer to our [CVPR'17 paper](https://arxiv.org/abs/1611.08050) or our [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
 
-<p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/pose.gif", width="720">
-</p>
-
-This project is licensed under the terms of the [license](LICENSE).
-
-Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
-
-## Results
-
-<p align="left">
+<<p align="left">
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif", width="720">
 </p>
 
@@ -26,10 +16,14 @@ Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/shake.gif", width="720">
 </p>
 
+This project is licensed under the terms of the [license](LICENSE).
+
+Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
+
 ## Contents
 1. [Testing](#testing)
 2. [Training](#training)
-3. [MXnet, pyTorch and tensorflow version](#other Implementations)
+3. [MXnet, pyTorch and tensorflow version](#other)
 4. [Citation](#citation)
 
 ## Testing

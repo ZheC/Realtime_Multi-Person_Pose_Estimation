@@ -18,8 +18,6 @@ We present a bottom-up approach for multi-person pose estimation, without using 
 
 This project is licensed under the terms of the [license](LICENSE).
 
-Contact: [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao)  Email: zhecao@cmu.edu
-
 ## Contents
 1. [Testing](#testing)
 2. [Training](#training)

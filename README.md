@@ -21,7 +21,7 @@ This project is licensed under the terms of the [license](LICENSE).
 ## Contents
 1. [Testing](#testing)
 2. [Training](#training)
-3. [MXnet, pyTorch and tensorflow version](#other)
+3. [MXnet, pyTorch and tensorflow version](#other-implementations)
 4. [Citation](#citation)
 
 ## Testing

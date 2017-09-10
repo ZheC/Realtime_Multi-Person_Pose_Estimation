@@ -8,7 +8,7 @@ Watch our video result in [YouTube](https://www.youtube.com/watch?v=pW6nZXeWlGM&
 
 We present a bottom-up approach for multi-person pose estimation, without using any person detector. For more details, refer to our [CVPR'17 paper](https://arxiv.org/abs/1611.08050) or our [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
 
-<<p align="left">
+<p align="left">
 <img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif", width="720">
 </p>
 

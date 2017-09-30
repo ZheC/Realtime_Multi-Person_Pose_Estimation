@@ -27,8 +27,8 @@ This project is licensed under the terms of the [license](LICENSE).
 ## Testing
 
 ### C++ (realtime version, for demo purpose)
-- Use our modified caffe: [caffe_rtpose](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo. 
-- In May 2017, we released an updated library [openPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- In May 2017, we released an updated library: [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- Old modified caffe version (not maintained anymore, please use OpenPose instead): [caffe_rtpose](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo. 
 - Three input options: images, video, webcam
 
 ### Matlab (slower, for COCO evaluation)

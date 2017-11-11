@@ -1,7 +1,7 @@
 addpath('dataset/COCO/coco/MatlabAPI/');
 addpath('../testing/util');
 
-mkdir('dataset/COCO/images/mask2014')
+mkdir('dataset/COCO/mask2014')
 vis = 0;
 
 for mode = 0:1

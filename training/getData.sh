@@ -25,5 +25,5 @@ unzip test2015.zip -d dataset/COCO/images
 rm -f person_keypoints_trainval2014.zip
 rm -f test2015.zip
 rm -f test2014.zip
-rm -f train2015.zip
+rm -f train2014.zip
 rm -f val2014.zip

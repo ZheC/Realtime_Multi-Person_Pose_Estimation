@@ -24,6 +24,7 @@ Thank you all for the efforts! If you have new implementation and want to share 
 - Pytorch [[version 1]](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 2]](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation)
 - Chainer [[version 1]](https://github.com/DeNA/Chainer_Realtime_Multi-Person_Pose_Estimation)
 - MXnet [[version 1]](https://github.com/dragonfly90/mxnet_Realtime_Multi-Person_Pose_Estimation)
+- MatConvnet [[version 1]](https://github.com/coocoky/matconvnet_Realtime_Multi-Person_Pose_Estimation)
 - Our new C++ library [openPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 

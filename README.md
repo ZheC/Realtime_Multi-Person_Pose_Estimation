@@ -1,5 +1,5 @@
 # Realtime Multi-Person Pose Estimation
-By [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao), [Tomas Simon](http://www.cs.cmu.edu/~tsimon/), [Shih-En Wei](https://scholar.google.com/citations?user=sFQD3k4AAAAJ&hl=en), [Yaser Sheikh](http://www.cs.cmu.edu/~yaser/).
+By [Zhe Cao](https://people.eecs.berkeley.edu/~zhecao/), [Tomas Simon](http://www.cs.cmu.edu/~tsimon/), [Shih-En Wei](https://scholar.google.com/citations?user=sFQD3k4AAAAJ&hl=en), [Yaser Sheikh](http://www.cs.cmu.edu/~yaser/).
 
 ## Introduction
 Code repo for winning 2016 MSCOCO Keypoints Challenge, 2016 ECCV Best Demo Award, and 2017 CVPR Oral paper.  
@@ -20,12 +20,12 @@ This project is licensed under the terms of the [license](LICENSE).
 
 ## Other Implementations
 Thank you all for the efforts! If you have new implementation and want to share with others, feel free to make a pull request or email me! 
+- Our new C++ library [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) (testing only)
 - Tensorflow [[version 1]](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 2]](https://github.com/ildoonet/tf-openpose) | [[version 3]](https://github.com/raymon-tian/keras_Realtime_Multi-Person_Pose_Estimation)
 - Pytorch [[version 1]](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 2]](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation)
 - Chainer [[version 1]](https://github.com/DeNA/Chainer_Realtime_Multi-Person_Pose_Estimation)
 - MXnet [[version 1]](https://github.com/dragonfly90/mxnet_Realtime_Multi-Person_Pose_Estimation)
 - MatConvnet [[version 1]](https://github.com/coocoky/matconvnet_Realtime_Multi-Person_Pose_Estimation)
-- Our new C++ library [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 
 ## Contents

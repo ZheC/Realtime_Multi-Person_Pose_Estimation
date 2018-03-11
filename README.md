@@ -26,6 +26,7 @@ Thank you all for the efforts! If you have new implementation and want to share 
 - Chainer [[version 1]](https://github.com/DeNA/Chainer_Realtime_Multi-Person_Pose_Estimation)
 - MXnet [[version 1]](https://github.com/dragonfly90/mxnet_Realtime_Multi-Person_Pose_Estimation)
 - MatConvnet [[version 1]](https://github.com/coocoky/matconvnet_Realtime_Multi-Person_Pose_Estimation)
+- CNTK [[version 1]](https://github.com/Hzzone/CNTK_Realtime_Multi-Person_Pose_Estimation)
 
 
 ## Contents

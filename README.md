@@ -37,8 +37,7 @@ Thank you all for the efforts! If you have new implementation and want to share 
 ## Testing
 
 ### C++ (realtime version, for demo purpose)
-- In May 2017, we released an updated library: [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-- Old modified caffe version (not maintained anymore, please use OpenPose instead): [caffe_rtpose](https://github.com/CMU-Perceptual-Computing-Lab/caffe_demo/). Follow the instruction on that repo. 
+- Please use [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), now it can run in CPU/ GPU and windows /Ubuntu.
 - Three input options: images, video, webcam
 
 ### Matlab (slower, for COCO evaluation)

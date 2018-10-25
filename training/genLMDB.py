@@ -78,11 +78,13 @@ def writeLMDB(datasets, lmdb_path, validation):
 
 		height = img.shape[0]
 		width = img.shape[1]
-		if(width < 64):
-			img = cv2.copyMakeBorder(img,0,0,0,64-width,cv2.BORDER_CONSTANT,value=(128,128,128))
+		if(width < 68):
+			img = cv2.copyMakeBorder(img,0,0,0,68-width,cv2.BORDER_CONSTANT,value=(128,128,128))
+			mask_all = cv2.copyMakeBorder(mask_all,0,0,0,68-width,cv2.BORDER_CONSTANT,value=0)
+			mask_miss = cv2.copyMakeBorder(mask_miss,0,0,0,68-width,cv2.BORDER_CONSTANT,value=0)
 			print 'saving padded image!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
 			cv2.imwrite('padded_img.jpg', img)
-			width = 64
+			width = 68
 			# no modify on width, because we want to keep information
 		meta_data = np.zeros(shape=(height,width,1), dtype=np.uint8)
 		#print type(img), img.shape

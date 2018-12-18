@@ -22,7 +22,7 @@ This project is licensed under the terms of the [license](LICENSE).
 Thank you all for the efforts for the reimplementation! If you have new implementation and want to share with others, feel free to make a pull request or email me! 
 - Our new C++ library [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) (testing only)
 - Tensorflow [[version 1]](https://github.com/ildoonet/tf-openpose) | [[version 2]](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 3]](https://github.com/anatolix/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 4]](https://github.com/raymon-tian/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 5]](https://github.com/tensorlayer/openpose) | [[version 6]](https://github.com/YangZeyu95/unofficial-implement-of-openpose)
-- Pytorch [[version 1]](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 2]](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 3]](https://github.com/youansheng/pytorch-cv/tree/master/methods/pose)
+- Pytorch [[version 1]](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 2]](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 3]](https://github.com/CVBox/PyTorchCV)
 - Caffe2 [[version 1]](https://github.com/eddieyi/caffe2-pose-estimation)
 - Chainer [[version 1]](https://github.com/DeNA/Chainer_Realtime_Multi-Person_Pose_Estimation)
 - MXnet [[version 1]](https://github.com/dragonfly90/mxnet_Realtime_Multi-Person_Pose_Estimation)
